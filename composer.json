@@ -1,0 +1,22 @@
+{
+  "name": "root/RESTful_api",
+  "description": "RESTful API",
+  "authors": [
+    {
+      "name": "Thang",
+      "email": "nguyentaithang@gmail.com"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\Model\\": "src/model/",
+      "Src\\View\\": "src/view/",
+      "Src\\Controller\\": "src/controller/",
+      "Src\\" : "src/"
+
+    }
+  }
+}
